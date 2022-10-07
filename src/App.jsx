@@ -1,24 +1,24 @@
-import React from  "react"
+import React from "react";
 import Navbar from "./components/Navbar.jsx";
-import HomeContent from "./components/HomeContent.jsx"
-import "./Style.scss"
-import About from "./components/About.jsx"
-export default function App(){
-  return(
-    <div> 
-    <div className = "Bg">
+import HomeContent from "./components/HomeContent.jsx";
+import "./Style.scss";
+import Skills from "./components/Skills.jsx";
+import About from "./components/About.jsx";
+export default function App() {
+  return (
     <div>
-    <Navbar/>
-    <HomeContent/>
+      <div className="Bg">
+        <div>
+          <Navbar />
+          <HomeContent />
+        </div>
+      </div>
+      <div className="Bg">
+        <About />
+      </div>
+      <div>
+        <Skills />
+      </div>
     </div>
-    </div>
-    <div className = "Bg">
-    <About/>
-    </div>
-
-
-
-
-    </div>
-  )
+  );
 }

@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <nav>
-      <div className="logo"><img/> </div>
+      <div className="logo"><img src = "./assets/logo.png"/> </div>
       <ul>
         <li>
           <a href="">Home</a>
@@ -14,7 +14,9 @@ export default function Navbar() {
         <li>
           <a href="">Skills </a>
         </li>
-        
+        <li>
+          <a href="">Portfolio </a>
+        </li>
         <li>
           <a href="">Contact </a>
         </li>
