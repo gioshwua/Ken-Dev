@@ -13,13 +13,14 @@ export default function App() {
           <HomeContent />
         </div>
       </div>
-      <White />
+
       <div className="Bg">
         <About />
       </div>
 
       <div>
         <Skills />
+        <White />
       </div>
     </div>
   );

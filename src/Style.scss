@@ -164,18 +164,7 @@ ul > li > a {
   flex-wrap: wrap;
   width: 800px;
 }
-.Filler {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url("./assets/page2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 150px;
-  width: 100%;
-}
+
 @media (max-width: 500px) {
   .HomeContent {
     font-size: 24px;
@@ -192,14 +181,15 @@ ul > li > a {
   }
   .Filler {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("./assets/bgg.jpg");
+      url("./assets/rekta.jpg");
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 10vh;
     width: 100%;
     color: green;
   }
@@ -246,5 +236,13 @@ ul > li > a {
   .Skills > .Skillsko > img {
     height: 60px;
     width: 60px;
+  }
+  .Skills {
+    height: 90vh;
+    background-color: rgb(200, 202, 200);
+    background-image: url("./assets/page2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 }
