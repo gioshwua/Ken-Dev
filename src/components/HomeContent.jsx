@@ -14,7 +14,7 @@ export default function HomeContent() {
         strings={[
           "Kenneth Joshua O Reano",
           "Aspiring FrontEnd Developer",
-          "Sir Required po Ba Talaga to?",
+          "Krazy Tambay sa Gedli",
         ]}
         typeSpeed={100}
         backSpeed={50}

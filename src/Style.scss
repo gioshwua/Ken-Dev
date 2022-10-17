@@ -176,6 +176,15 @@ ul > li > a {
   .HomeContent > .describe {
     font-size: 15px;
     width: 350px;
+    border: 0px solid;
+    border-radius: 10px;
+  }
+  .Bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("./assets/para.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   //about
   .About > div > img {
