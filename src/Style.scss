@@ -168,3 +168,25 @@ ul > li > a {
 .LandingPage {
   height: 100vh;
 }
+
+@media (max-width: 500px) {
+  .HomeContent {
+    font-size: 20px;
+  }
+  .HomeContent > .describe {
+    font-size: 15px;
+    width: 350px;
+  }
+  //about
+  .About > div > img {
+    height: 100px;
+  }
+  .About > div > h1 {
+    font-size: 15px;
+  }
+  .About > div > p {
+    font-size: 10px;
+    line-height: 1rem;
+    width: 250px;
+  }
+}
