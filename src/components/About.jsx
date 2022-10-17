@@ -17,9 +17,10 @@ export default function About() {
           {" "}
           Hello world, I am Kenneth. A freelancer based in Batangas City,
           Philippines. 2 years experience in strategy, experience design, and
-          web development. I'm a PHP & Ruby programmer who is capable in
-          building Wordpress, Drupal, Laravel, Silverstripe, Salesforce, Ruby On
-          Rails, Spree and even custom applications for my clients.{" "}
+          web development. Eh paano kung hindi Hindi ka nakilala Siguro
+          nakakulong pa din Sa nakaraan 'di makalaya Ang sarili dinadaya, yeah
+          Naglalasing-lasing hindi pala kaya, yeah Ayokong magising nang 'di ka
+          kasama Kung nandito ka sa tabi mas masaya sana.{" "}
         </p>
       </div>
     </section>
