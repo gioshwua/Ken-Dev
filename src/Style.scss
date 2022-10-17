@@ -98,7 +98,6 @@ ul > li > a {
   font-size: 30px;
 }
 .About > div > p {
-  font-weight: bold;
   font-size: 15px;
   line-height: 1.5rem;
   width: 90%;
@@ -196,7 +195,8 @@ ul > li > a {
   }
   .About > div > p {
     font-size: 12px;
-    line-height: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.3rem;
     width: 250px;
   }
 
