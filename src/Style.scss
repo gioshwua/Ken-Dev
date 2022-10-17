@@ -101,7 +101,7 @@ ul > li > a {
   font-weight: bold;
   font-size: 15px;
   line-height: 1.5rem;
-  width: 700px;
+  width: 90%;
 }
 .About > div > h1 > span {
   color: #32a86f;
@@ -165,13 +165,13 @@ ul > li > a {
   flex-wrap: wrap;
   width: 800px;
 }
-.LandingPage {
-  height: 100vh;
-}
 
 @media (max-width: 500px) {
   .HomeContent {
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .HomeContent > p {
+    font-size: 29px;
   }
   .HomeContent > .describe {
     font-size: 15px;
@@ -179,14 +179,36 @@ ul > li > a {
   }
   //about
   .About > div > img {
-    height: 100px;
+    height: 120px;
   }
   .About > div > h1 {
     font-size: 15px;
   }
+  .About {
+    width: 100%;
+    background-image: url("./assets/bk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+  }
   .About > div > p {
-    font-size: 10px;
-    line-height: 1rem;
+    font-size: 12px;
+    line-height: 1.2rem;
     width: 250px;
+  }
+
+  .Skillsko {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  .Skills > .Skillsko > img {
+    height: 60px;
+    width: 60px;
   }
 }

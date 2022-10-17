@@ -8,11 +8,8 @@ import White from "./components/White.jsx";
 export default function App() {
   return (
     <div>
-      <White />
       <div className="Bg">
         <div>
-          <Navbar />
-
           <HomeContent />
         </div>
       </div>
