@@ -164,7 +164,18 @@ ul > li > a {
   flex-wrap: wrap;
   width: 800px;
 }
-
+.Filler {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("./assets/page2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
 @media (max-width: 500px) {
   .HomeContent {
     font-size: 24px;
@@ -179,9 +190,22 @@ ul > li > a {
     border: 0px solid;
     border-radius: 10px;
   }
+  .Filler {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("./assets/bgg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    color: green;
+  }
   .Bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("./assets/para.jpg");
+      url("./assets/mine.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -209,7 +233,9 @@ ul > li > a {
     line-height: 1.3rem;
     width: 250px;
   }
-
+  .Skills {
+    height: 100vh;
+  }
   .Skillsko {
     display: flex;
     gap: 20px;
