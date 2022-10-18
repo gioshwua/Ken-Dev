@@ -257,7 +257,7 @@ ul > li > a {
 }
 @media (max-width: 700px) {
   .Landing {
-    margin-top: -150px;
+    margin-bottom: 150px;
     height: 100vh;
     font-size: 15px;
   }
@@ -338,6 +338,11 @@ ul > li > a {
     height: 45px;
     width: 45px;
   }
+  .Skills > .Skillsko > img:hover {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(9, 250, 126);
+  }
   .Skills {
     height: 90vh;
     background-color: rgb(200, 202, 200);
@@ -364,6 +369,14 @@ ul > li > a {
   }
   .Filler > div > img {
     height: 30px;
+  }
+  .Filler > div > img:hover {
+    border: 0px solid;
+    box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+    background-color: #32a86fef;
+    height: 40px;
   }
   .Footer {
     font-size: 10px;
