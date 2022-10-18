@@ -195,8 +195,7 @@ ul > li > a {
   }
   .Filler {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-      url("./assets/rekta.jpg");
-
+      url("./assets/62.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,14 +242,15 @@ ul > li > a {
   }
   .Skillsko {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 400px;
+    width: 320px;
   }
   .Skills > .Skillsko > img {
-    height: 60px;
-    width: 60px;
+    padding: 13px;
+    height: 45px;
+    width: 45px;
   }
   .Skills {
     height: 90vh;
