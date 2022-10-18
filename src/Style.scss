@@ -213,8 +213,8 @@ ul > li > a {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   border: 0px solid;
-  padding: 3px;
-  border-radius: 5px;
+  padding: 2px;
+  border-radius: 50%;
 }
 @keyframes Glow {
   0% {
@@ -395,7 +395,7 @@ ul > li > a {
     align-items: center;
   }
   .Filler > div > img {
-    height: 30px;
+    height: 22px;
   }
   .Filler > div > img:hover {
     border: 0px solid;
@@ -403,7 +403,7 @@ ul > li > a {
     -webkit-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
     -moz-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
     background-color: #32a86fef;
-    height: 40px;
+    height: 35px;
   }
   .Footer {
     font-size: 10px;
