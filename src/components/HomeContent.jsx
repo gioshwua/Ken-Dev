@@ -13,7 +13,7 @@ export default function HomeContent() {
         className="type"
         strings={[
           "Kenneth Joshua O Reano",
-          "Aspiring FrontEnd Developer",
+          "FrontEnd Developer",
           "Krazy Tambay sa Gedli",
         ]}
         typeSpeed={100}

@@ -8,6 +8,7 @@ body {
 .Landing {
   height: 100vh;
   display: flex;
+  font-size: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -104,8 +105,17 @@ ul > li > a {
   height: 30px;
   width: 30px;
 }
+.Skills > div {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+}
+
+.Skills > div > span {
+  font-weight: bold;
+  color: #32a86f;
+}
 .Skills {
-  height: 85vh;
+  height: 90vh;
   background-color: rgb(200, 202, 200);
   background-image: url("./assets/bk.jpg");
   background-size: cover;
@@ -121,7 +131,22 @@ ul > li > a {
   border-radius: 10px;
 }
 .Filler {
-  height: 15vh;
+  height: 10vh;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.Filler > div {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.Filler > div > img {
+  height: 45px;
 }
 .About > div > img {
   height: 200px;
@@ -176,22 +201,54 @@ ul > li > a {
   background-position: center;
   background-attachment: fixed;
 }
+.Footer {
+  background-image: url("./assets/bk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 5vh;
+  color: black;
 
-@media (max-width: 500px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: lighter;
+}
+@media (max-width: 900px) {
+  .Skills > .Skillsko > img {
+    padding: 25px;
+    height: 50px;
+    width: 50px;
+  }
+  .Skills > div {
+    font-size: 35px;
+  }
+  .Skillsko {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+}
+@media (max-width: 700px) {
   .HomeContent {
-    font-size: 24px;
+    padding-top: 10px;
     height: 100vh;
   }
   .HomeContent > .type {
-    font-size: 27px;
+    font-size: 25px;
   }
   .HomeContent > p {
-    font-size: 23px;
+    font-size: 22px;
   }
   .HomeContent > .describe {
     font-size: 15px;
 
-    width: 350px;
+    width: 320px;
   }
   .Filler {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
@@ -236,9 +293,12 @@ ul > li > a {
     line-height: 1.3rem;
     width: 250px;
   }
+  .About > div {
+    width: 280px;
+  }
 
-  .Skills {
-    height: 100vh;
+  .Skills > div {
+    font-size: 28px;
   }
   .Skillsko {
     display: flex;
@@ -259,5 +319,27 @@ ul > li > a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .Filler {
+    font-size: 10px;
+    height: 10vh;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .Filler > div {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .Filler > div > img {
+    height: 30px;
+  }
+  .Footer {
+    font-size: 10px;
   }
 }

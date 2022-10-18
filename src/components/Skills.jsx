@@ -8,7 +8,7 @@ export default function Skills() {
   return (
     <div className="Skills">
       <div className="Describe" data-aos="fade-right">
-        My skills
+        MY <span>SKILLS</span>
       </div>
       <div className="Skillsko" data-aos="fade-left">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
@@ -36,6 +36,8 @@ export default function Skills() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
 
         <img src="./src/assets/vite.png" />
       </div>
