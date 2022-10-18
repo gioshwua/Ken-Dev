@@ -139,7 +139,7 @@ ul > li > a {
   justify-content: center;
   align-items: center;
   gap: 7px;
-  color: #32a86fef;
+  color: black;
 }
 .Filler > div {
   justify-content: space-around;
@@ -209,9 +209,34 @@ ul > li > a {
   background-attachment: fixed;
 }
 .Filler > div > img {
+  animation-name: Glow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
   border: 0px solid;
   padding: 3px;
   border-radius: 5px;
+}
+@keyframes Glow {
+  0% {
+    box-shadow: 1px 2px 12px 3px rgba(0, 128, 0, 0.75);
+    -webkit-box-shadow: 1px 2px 12px 3px rgba(0, 128, 0, 0.75);
+    -moz-box-shadow: 1px 2px 12px 3px rgba(0, 128, 0, 0.75);
+  }
+  50% {
+    box-shadow: 1px 2px 12px 3px rgba(50, 168, 111, 0.75);
+    -webkit-box-shadow: 1px 2px 12px 3px rgba(50, 168, 111, 0.75);
+    -moz-box-shadow: 1px 2px 12px 3px rgba(50, 168, 111, 0.75);
+  }
+  75% {
+    box-shadow: 1px 2px 12px 3px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 1px 2px 12px 3px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 2px 12px 3px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    box-shadow: 1px 2px 12px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 2px 12px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 12px 3px rgba(0, 0, 0, 0.75);
+  }
 }
 .Filler > div > img:hover {
   border: 0px solid;
@@ -221,6 +246,7 @@ ul > li > a {
   background-color: #32a86fef;
   height: 50px;
 }
+
 .Footer {
   background-image: url("./assets/bk.jpg");
   background-size: cover;
@@ -257,8 +283,8 @@ ul > li > a {
 }
 @media (max-width: 700px) {
   .Landing {
-    margin-bottom: 100px;
     height: 100vh;
+    margin-bottom: 100px;
     font-size: 15px;
   }
   .HomeContent {
@@ -359,7 +385,8 @@ ul > li > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
+    color: black;
   }
   .Filler > div {
     justify-content: space-around;
