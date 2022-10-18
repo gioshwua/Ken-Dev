@@ -7,10 +7,10 @@ export default function Skills() {
   }, []);
   return (
     <div className="Skills">
-      <div className="Describe" data-aos="flip-right">
+      <div className="Describe" data-aos="fade-right">
         My skills
       </div>
-      <div className="Skillsko" data-aos="flip-left">
+      <div className="Skillsko" data-aos="fade-left">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" />
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
@@ -25,6 +25,8 @@ export default function Skills() {
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
 
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original-wordmark.svg" />
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" />
@@ -32,6 +34,10 @@ export default function Skills() {
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
+
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
+
+        <img src="./src/assets/vite.png" />
       </div>
     </div>
   );

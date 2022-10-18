@@ -5,9 +5,11 @@ import "./Style.scss";
 import Skills from "./components/Skills.jsx";
 import About from "./components/About.jsx";
 import White from "./components/White.jsx";
+import Landing from "./components/Landing.jsx";
 export default function App() {
   return (
     <div>
+      <Landing />
       <div className="Bg">
         <div>
           <HomeContent />

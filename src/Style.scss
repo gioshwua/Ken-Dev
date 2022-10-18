@@ -5,18 +5,11 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-nav {
-  background-color: whitesmoke;
-  font-size: 18px;
-  height: 50px;
+.Landing {
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-
-  flex-wrap: wrap;
-  box-shadow: 2px 3px 8px -1px rgba(33, 33, 33, 0.75);
-  -webkit-box-shadow: 2px 3px 8px -1px rgba(33, 33, 33, 0.75);
-  -moz-box-shadow: 2px 3px 8px -1px rgba(33, 33, 33, 0.75);
 }
 .logo {
   content: url("./assets/logo.png");
@@ -112,12 +105,23 @@ ul > li > a {
   width: 30px;
 }
 .Skills {
-  height: 100vh;
+  height: 85vh;
   background-color: rgb(200, 202, 200);
-  background-image: url("./assets/bgg.jpg");
+  background-image: url("./assets/bk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.Skills > .Skillsko > img {
+  border: 0px solid;
+  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+  padding: 22px;
+  border-radius: 10px;
+}
+.Filler {
+  height: 15vh;
 }
 .About > div > img {
   height: 200px;
@@ -159,10 +163,18 @@ ul > li > a {
 }
 .Skillsko {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  width: 800px;
+  width: 100vh;
+}
+.Filler {
+  background-image: url("./assets/62.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 @media (max-width: 500px) {
@@ -170,14 +182,16 @@ ul > li > a {
     font-size: 24px;
     height: 100vh;
   }
+  .HomeContent > .type {
+    font-size: 27px;
+  }
   .HomeContent > p {
-    font-size: 29px;
+    font-size: 23px;
   }
   .HomeContent > .describe {
     font-size: 15px;
+
     width: 350px;
-    border: 0px solid;
-    border-radius: 10px;
   }
   .Filler {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
@@ -223,15 +237,16 @@ ul > li > a {
     line-height: 1.3rem;
     width: 250px;
   }
+
   .Skills {
     height: 100vh;
   }
   .Skillsko {
     display: flex;
-    gap: 20px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: space-around;
     flex-wrap: wrap;
-    width: 300px;
+    width: 400px;
   }
   .Skills > .Skillsko > img {
     height: 60px;
@@ -240,7 +255,7 @@ ul > li > a {
   .Skills {
     height: 90vh;
     background-color: rgb(200, 202, 200);
-    background-image: url("./assets/page2.jpg");
+    background-image: url("./assets/bk.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
