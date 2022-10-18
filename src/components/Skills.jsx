@@ -13,7 +13,7 @@ export default function Skills() {
       <div className="Skillsko" data-aos="fade-left">
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-          data-aos="fade-left"
+          data-aos="fade-up"
         />
 
         <img
@@ -23,12 +23,12 @@ export default function Skills() {
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
-          data-aos="fade-right"
+          data-aos="fade-up"
         />
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-          data-aos="fade-left"
+          data-aos="fade-up"
         />
 
         <img
@@ -38,22 +38,22 @@ export default function Skills() {
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-          data-aos="fade-up"
-        />
-
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-          data-aos="fade-right"
-        />
-
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
           data-aos="fade-left"
         />
 
         <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+          data-aos="fade-left"
+        />
+
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+          data-aos="fade-right"
+        />
+
+        <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original-wordmark.svg"
-          data-aos="fade-up"
+          data-aos="fade-right"
         />
 
         <img
@@ -63,25 +63,28 @@ export default function Skills() {
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
-          data-aos="fade-left"
+          data-aos="fade-down"
         />
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg"
-          data-aos="fade-up"
+          data-aos="fade-down"
         />
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
-          data-aos="fade-right"
+          data-aos="fade-down"
         />
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-          data-aos="fade-left"
+          data-aos="fade-down"
         />
 
-        <img src="./src/assets/vite.png" data-aos="fade-up" />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/babel/babel-original.svg"
+          data-aos="fade-down"
+        />
       </div>
     </div>
   );

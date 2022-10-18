@@ -17,10 +17,10 @@ export default function About() {
           {" "}
           Hello world, I am Kenneth. A freelancer based in Batangas City,
           Philippines. 2 years experience in strategy, experience design, and
-          web development. Eh paano kung hindi Hindi ka nakilala Siguro
-          nakakulong pa din Sa nakaraan 'di makalaya Ang sarili dinadaya, yeah
-          Naglalasing-lasing hindi pala kaya, yeah Ayokong magising nang 'di ka
-          kasama Kung nandito ka sa tabi mas masaya sana.{" "}
+          web development. Lorem ipsum dolor sit amet, consectetur adipisicing
+          elit. Repellat voluptas reiciendis aspernatur, recusandae incidunt vel
+          necessitatibus nam rem est sapiente in quod, quisquam qui tempora
+          perferendis voluptatibus? Necessitatibus, quo ipsum.{" "}
         </p>
       </div>
     </section>
