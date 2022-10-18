@@ -3,7 +3,9 @@ import Typed from "react-typed";
 export default function Landing() {
   return (
     <section className="Landing">
-      <div>SCROLL DOWN !</div>
+      <div>
+        SCROLL <span>DOWN ! </span>
+      </div>
     </section>
   );
 }
