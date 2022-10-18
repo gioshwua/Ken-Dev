@@ -105,6 +105,7 @@ ul > li > a {
   height: 30px;
   width: 30px;
 }
+
 .Skills > div {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: lighter;
@@ -174,6 +175,11 @@ ul > li > a {
   height: 90px;
   width: 90px;
 }
+.Skills > .Skillsko > img:hover {
+  height: 95px;
+  width: 95px;
+  background-color: rgb(9, 250, 126);
+}
 .Skills {
   display: flex;
   justify-content: center;
@@ -201,6 +207,19 @@ ul > li > a {
   background-position: center;
   background-attachment: fixed;
 }
+.Filler > div > img {
+  border: 0px solid;
+  padding: 3px;
+  border-radius: 5px;
+}
+.Filler > div > img:hover {
+  border: 0px solid;
+  box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 3px 5px 5px rgba(0, 0, 0, 0.45);
+  background-color: #32a86fef;
+  height: 50px;
+}
 .Footer {
   background-image: url("./assets/bk.jpg");
   background-size: cover;
@@ -217,6 +236,7 @@ ul > li > a {
   font-size: 12px;
   font-weight: lighter;
 }
+
 @media (max-width: 900px) {
   .Skills > .Skillsko > img {
     padding: 25px;
@@ -235,6 +255,11 @@ ul > li > a {
   }
 }
 @media (max-width: 700px) {
+  .Landing {
+    margin-top: -90px;
+    height: 800px;
+    font-size: 15px;
+  }
   .HomeContent {
     padding-top: 10px;
     height: 100vh;
@@ -298,7 +323,7 @@ ul > li > a {
   }
 
   .Skills > div {
-    font-size: 28px;
+    font-size: 23px;
   }
   .Skillsko {
     display: flex;

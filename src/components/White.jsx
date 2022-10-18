@@ -7,7 +7,7 @@ export default function White() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <section className="Filler" data-aos="fade-right">
+    <section className="Filler">
       FOLLOW ME ON:
       <div>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />
