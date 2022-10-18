@@ -139,6 +139,7 @@ ul > li > a {
   justify-content: center;
   align-items: center;
   gap: 7px;
+  color: #32a86fef;
 }
 .Filler > div {
   justify-content: space-around;
@@ -256,8 +257,8 @@ ul > li > a {
 }
 @media (max-width: 700px) {
   .Landing {
-    margin-top: -90px;
-    height: 800px;
+    margin-top: -150px;
+    height: 100vh;
     font-size: 15px;
   }
   .HomeContent {
@@ -286,7 +287,7 @@ ul > li > a {
     align-items: center;
     height: 10vh;
     width: 100%;
-    color: green;
+    color: #32a86fef;
   }
   .Bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
