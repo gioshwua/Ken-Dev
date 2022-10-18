@@ -12,6 +12,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.Landing > div {
+  height: 50px;
+}
+.Landing > div:hover {
+  font-size: 70px;
+}
 .logo {
   content: url("./assets/logo.png");
   width: 45px;
@@ -282,6 +288,12 @@ ul > li > a {
   }
 }
 @media (max-width: 700px) {
+  .Landing > div {
+    height: 50px;
+  }
+  .Landing > div:hover {
+    font-size: 30px;
+  }
   .Landing {
     height: 100vh;
     margin-bottom: 100px;

@@ -10,10 +10,10 @@ export default function About() {
       <div data-aos="fade-left">
         <img />
 
-        <h1>
+        <h1 data-aos="fade-up">
           Hey! Its nice<span> Meeting you</span> !<img></img>{" "}
         </h1>
-        <p>
+        <p data-aos="fade-left">
           {" "}
           Hello world, I am Kenneth. A freelancer based in Batangas City,
           Philippines. 2 years experience in strategy, experience design, and
