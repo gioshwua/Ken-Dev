@@ -18,7 +18,7 @@ export default function About() {
           Hello world, I am Kenneth. A freelancer based in Batangas City,
           Philippines. 2 years experience in strategy, experience design, and
           web development. Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Repellat voluptas reiciendis aspernatur, recusandae incidunt vel
+          elit. Repellat voluptas reiciends aspernatur, recusandae incidunt vel
           necessitatibus nam rem est sapiente in quod, quisquam qui tempora
           perferendis voluptatibus? Necessitatibus, quo ipsum.{" "}
         </p>
