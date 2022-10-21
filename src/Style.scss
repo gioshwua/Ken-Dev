@@ -20,6 +20,7 @@ body {
   font-weight: bold;
 }
 .Landing {
+  width: 100vw;
   height: 100vh;
   display: flex;
   font-size: 30px;
@@ -53,7 +54,7 @@ ul > li > a {
   line-height: 1.5rem;
   font-weight: bold;
   gap: 50px;
-  width: 100%;
+  width: 100vw;
   height: 1100px;
   display: flex;
   flex-direction: column;
