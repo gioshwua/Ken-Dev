@@ -8,7 +8,7 @@ export default function HomeContent() {
   }, []);
   return (
     <section className="HomeContent">
-      <p data-aos="fade-right">HOLA! I AM</p>
+      <p data-aos="fade-down">HOLA! I AM</p>
       <Typed
         className="type"
         strings={[

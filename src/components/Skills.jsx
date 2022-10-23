@@ -10,7 +10,7 @@ export default function Skills() {
       <div className="Describe" data-aos="fade-right">
         MY <span>SKILLS</span>
       </div>
-      <div className="Skillsko" data-aos="fade-left">
+      <div className="Skillsko" data-aos="fade-up">
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
           data-aos="fade-up"
@@ -38,12 +38,12 @@ export default function Skills() {
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-          data-aos="fade-left"
+          data-aos="fade-up"
         />
 
         <img
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-          data-aos="fade-left"
+          data-aos="fade-up"
         />
 
         <img
