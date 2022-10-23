@@ -127,7 +127,7 @@ ul > li > a {
   width: 30px;
 }
 .Skills {
-  width: 100%;
+  width: 100v;
 }
 .Skills > div {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -341,6 +341,7 @@ ul > li > a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-attachment: local;
     height: 10vh;
     width: 100%;
     color: #32a86fef;
@@ -365,7 +366,7 @@ ul > li > a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: local;
     justify-content: center;
     align-items: center;
   }
@@ -437,6 +438,7 @@ ul > li > a {
   }
   .Footer {
     font-size: 10px;
+    background-attachment: local;
   }
 }
 @media (max-height: 500px) {
@@ -469,6 +471,7 @@ ul > li > a {
   }
   .Footer {
     font-size: 5px;
+    background-attachment: local;
   }
   .Filler {
     font-size: 10px;

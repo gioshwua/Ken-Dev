@@ -21,7 +21,7 @@ export default function HomeContent() {
         loop
       />
 
-      <p className="describe" data-aos="fade-left">
+      <p className="describe" data-aos="fade-up">
         I am a <span>frontend developer</span> with a particular interest in
         making things simple and automating daily tasks. I try to keep up with
         security and best practices, and am always looking for new things to
