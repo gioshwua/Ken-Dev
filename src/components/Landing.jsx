@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <section className="Landing">
       <div>
-        SCROLL <span>DOWN ! </span>
+        STILL <span>W . I . P ! </span>
       </div>
     </section>
   );
