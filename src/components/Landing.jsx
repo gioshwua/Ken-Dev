@@ -4,7 +4,7 @@ export default function Landing() {
   return (
     <section className="Landing">
       <div>
-        STILL <span>W . I . P ! </span>
+        STILL <span>W . i . P ! </span>
       </div>
     </section>
   );
