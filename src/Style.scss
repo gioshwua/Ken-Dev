@@ -606,7 +606,7 @@ ul > li > a {
   }
 }
 
-@media (max-height: 700px) {
+@media (max-height: 900px) {
   .Skills > div {
     font-size: 15px;
   }
@@ -658,5 +658,16 @@ ul > li > a {
   .Filler > div > img {
     transition: all 300ms ease-in-out;
     height: 15px;
+  }
+}
+
+@media (max-height: 300px) {
+  * {
+    display: none;
+  }
+}
+@media (max-width: 396px) {
+  * {
+    display: none;
   }
 }
