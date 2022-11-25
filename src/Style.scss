@@ -563,8 +563,63 @@ ul > li > a {
   }
   .Skills > .Skillsko > img {
     padding: 12px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
+    transition: all 300ms ease-in-out;
+  }
+  .Skills > .Skillsko > img:hover {
+    transform: scale(1.2);
+    background-color: rgb(9, 250, 126);
+  }
+  .Skills {
+    height: 90vh;
+    background-color: rgb(200, 202, 200);
+    background-image: url("./assets/bk.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .Footer {
+    font-size: 5px;
+    background-attachment: local;
+  }
+  .Filler {
+    font-size: 10px;
+    height: 10vh;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: black;
+  }
+  .Filler > div {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .Filler > div > img {
+    transition: all 300ms ease-in-out;
+    height: 15px;
+  }
+}
+
+@media (max-height: 700px) {
+  .Skills > div {
+    font-size: 15px;
+  }
+  .Skillsko {
+    display: flex;
+    gap: 12px;
+    justify-content: space-around;
+    width: 400px;
+  }
+  .Skills > .Skillsko > img {
+    padding: 12px;
+    height: 30px;
+    width: 30px;
     transition: all 300ms ease-in-out;
   }
   .Skills > .Skillsko > img:hover {
