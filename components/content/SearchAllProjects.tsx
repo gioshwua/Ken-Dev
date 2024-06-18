@@ -104,7 +104,7 @@ const allProjectsInfo = [
     id: '14',
     title: 'Ecoli Dataset prediction using  Random Forest Classifier',
     des: 'Used the dataset Ecoli from UCI and used Random Forest Classifier which is an ensemble Learning to predict the Ecoli Class',
-    category: 'typescript - ionic - angular - scss',
+    category: 'python - jupyther notebook - machine learning - random forest',
     repo: 'https://github.com/gioshwua/EColi-Random-Forest-Prediction',
     link: 'https://www.youtubefdf.com/watch?v=ysIM5sAkdAY'
   }
