@@ -48,8 +48,8 @@ const allProjectsInfo = [
     title: 'BSU OPCR Frontend',
     des: 'Office Performance Commitment and Review (OPCR) System, The Front end part of our project for Software Engineering subject',
     category: 'typescript - react - axios',
-    repo: 'https://github.com/jeandv/maps-app',
-    link: 'https://mapsapp.vercel.app'
+    repo: 'https://github.com/Sanjero20/bsu-opcr-frontend',
+    link: 'https://mapbvsapp.vercel.app'
   },
   {
     id: '8',
