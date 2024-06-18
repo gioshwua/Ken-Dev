@@ -53,11 +53,11 @@ const allProjectsInfo = [
   },
   {
     id: '8',
-    title: 'Github Issues',
-    des: 'First project using TanStack Query with Github API, I learned what it is for, how to use it and when to use it.',
+    title: 'Campus Student Violation System',
+    des: 'Developed a comprehensive repository system at BSU Alangilan Campus to track and record student violations of school regulations.',
     category: 'typescript - react - react query',
-    repo: 'https://github.com/jeandv/react-query/tree/main/02-react-query-issues-main',
-    link: 'https://github.com/jeandv/react-query/tree/main/02-react-query-issues-main'
+    repo: 'https://github.com/hubymeme22/Student-Violation-System',
+    link: 'httdfduery/tree/main/02-react-query-issues-main'
   },
   {
     id: '9',
