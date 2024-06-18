@@ -10,7 +10,7 @@ const Header = () => {
         <div>
           <h1>
             <Link href="/">
-              <strong>Kenneth_Dev</strong>();
+              <strong>Ken Reaño</strong> ();
             </Link>
           </h1>
         </div>
