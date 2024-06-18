@@ -10,7 +10,7 @@ const allProjectsInfo = [
     id: '1',
     title: 'Intelligent Recognition and Integrated Surveillance',
     des: 'Integrated Recognition Intelligent Surveillance (IRIS) AI technology for object detection, with a primary focus on monitoring equipment states (On/Off). By analyzing the frequency and duration of equipment usage, IRIS assists Lab Supervisors with automated data gathering and real-time monitoring capabilities',
-    category: 'javascript - react - python- YOLO',
+    category: 'javascript - react - python- yolo',
     repo: 'https://github.com/Project-Iris-CV/.github/tree/main/profile'
   },
   {
