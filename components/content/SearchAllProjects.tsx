@@ -11,21 +11,24 @@ const allProjectsInfo = [
     title: 'Intelligent Recognition and Integrated Surveillance',
     des: 'Integrated Recognition Intelligent Surveillance (IRIS) AI technology for object detection, with a primary focus on monitoring equipment states (On/Off). By analyzing the frequency and duration of equipment usage, IRIS assists Lab Supervisors with automated data gathering and real-time monitoring capabilities',
     category: 'javascript - react - python- yolo',
-    repo: 'https://github.com/Project-Iris-CV/.github/tree/main/profile'
+    repo: 'https://github.com/Project-Iris-CV/.github/tree/main/profile',
+    link: 'https://mercdsddolibre-des4.vercel.app'
   },
   {
     id: '2',
     title: 'BSU Alumni App Mobile',
     des: 'Alumni App Mobile is the mobile version of  web application that displays the credentials and accomplishments of Batangas State University graduates, it also keeps track of approaching News and Events that the university would be hosting. This application also includes a job section that gives graduates to potential employment prospects offered by Batangas State University.',
     category: 'angular-ionic',
-    repo: 'https://github.com/gioshwua/AlmuniApp-Mobile'
+    repo: 'https://github.com/gioshwua/AlmuniApp-Mobile',
+    link: 'https://mercdsddolibre-des4.vercel.app'
   },
   {
     id: '3',
     title: 'Alumni App Project',
     des: "A simple alumni app project by  that can be used as a future reference for the university's alumni web-app. This alumni app includes the client side for the alumni and administrators that is made from bottom up.",
     category: 'vanilla javascript - php - python ',
-    repo: 'https://github.com/hubymeme22/alumni-app-project'
+    repo: 'https://github.com/hubymeme22/alumni-app-project',
+    link: 'https://mercdsddolibre-des4.vercel.app'
   },
   {
     id: '5',
