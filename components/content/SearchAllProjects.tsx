@@ -45,8 +45,8 @@ const allProjectsInfo = [
   },
   {
     id: '7',
-    title: 'MapBoxApp',
-    des: 'In this project I learned how to consume the mapbox api and use its different functionalities.',
+    title: 'BSU OPCR Frontend',
+    des: 'Office Performance Commitment and Review (OPCR) System, The Front end part of our project for Software Engineering subject',
     category: 'typescript - react - axios',
     repo: 'https://github.com/jeandv/maps-app',
     link: 'https://mapsapp.vercel.app'
