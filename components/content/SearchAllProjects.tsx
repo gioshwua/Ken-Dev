@@ -105,40 +105,8 @@ const allProjectsInfo = [
     title: 'Ecoli Dataset prediction using  Random Forest Classifier',
     des: 'Used the dataset Ecoli from UCI and used Random Forest Classifier which is an ensemble Learning to predict the Ecoli Class',
     category: 'typescript - ionic - angular - scss',
-    repo: 'https://github.com/jeandv/pract-ionic',
-    link: 'https://www.youtube.com/watch?v=ysIM5sAkdAY'
-  },
-  {
-    id: '15',
-    title: 'Electron.js Projects',
-    des: 'All my projects using Electron.',
-    category: 'electron.js',
-    repo: 'https://github.com/jeandv/pract-electronjs',
-    link: 'https://github.com/jeandv/pract-electronjs'
-  },
-  {
-    id: '16',
-    title: 'Node Backend Projects',
-    des: 'Terminal projects (console), rest servers, api rests, etc.',
-    category: 'node - express - mongodb',
-    repo: 'https://github.com/jeandv/pract-nodejs',
-    link: 'https://github.com/jeandv/pract-nodejs'
-  },
-  {
-    id: '17',
-    title: 'JavaScript Algorithms',
-    des: 'Practice, exercises and algorithmic challenges using JavaScript and TypeScript.',
-    category: 'javascript - typescript',
-    repo: 'https://github.com/jeandv/algorithms-js',
-    link: 'https://github.com/jeandv/algorithms-js'
-  },
-  {
-    id: '18',
-    title: 'PHP Ecommerce',
-    des: 'Freelancer Ecommerce Project using PHP and MySQL database.',
-    category: 'php - mysql - bootstrap',
-    repo: 'https://github.com/jeandv/shopphp-paypal',
-    link: 'https://github.com/jeandv/shopphp-paypal'
+    repo: 'https://github.com/gioshwua/EColi-Random-Forest-Prediction',
+    link: 'https://www.youtubefdf.com/watch?v=ysIM5sAkdAY'
   }
 ];
 
