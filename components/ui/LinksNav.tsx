@@ -5,23 +5,23 @@ import { NavItemHeaderAnimation } from '@/types';
 
 export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
   '/': {
-    name: 'home',
+    name: 'Home',
     x: 1,
     y: -3,
-    w: '60px',
+    w: '60px'
   },
   '/about': {
-    name: 'about',
-    x: 65,
+    name: 'About',
+    x: 70,
     y: -3,
-    w: '60px',
+    w: '60px'
   },
   '/projects': {
-    name: 'projects',
-    x: 130,
+    name: 'Projects',
+    x: 135,
     y: -3,
-    w: '75px',
-  },
+    w: '75px'
+  }
   // '/blog': {
   //   name: 'blog',
   //   x: 209,
@@ -31,35 +31,30 @@ export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
 };
 
 const LinksNav = () => {
-
   let pathname = usePathname() as string;
   return (
     <>
-      {
-        Object.entries(navItemsSelected).map(([path, { name }]) => {
+      {Object.entries(navItemsSelected).map(([path, { name }]) => {
+        const isActive = path === pathname;
 
-          const isActive = path === pathname;
-
-          return (
-            <Link
-              key={path}
-              href={path}
-              className={clsx(
-                'hidden lg:inline-block transition ease hover:text-neutral-200 py-[2px] px-[10px]',
-                {
-                  'text-neutral-500': !isActive,
-                  'font-bold': isActive,
-                }
-              )}>
-
-              {name}
-
-            </Link>
-          )
-        })
-      }
+        return (
+          <Link
+            key={path}
+            href={path}
+            className={clsx(
+              'hidden lg:inline-block transition ease hover:text-neutral-200 py-[2px] px-[10px]',
+              {
+                'text-neutral-500': !isActive,
+                'font-bold': isActive
+              }
+            )}
+          >
+            {name}
+          </Link>
+        );
+      })}
     </>
-  )
-}
+  );
+};
 
 export default LinksNav;
