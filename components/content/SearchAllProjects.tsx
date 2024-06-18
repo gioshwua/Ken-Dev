@@ -38,10 +38,10 @@ const allProjectsInfo = [
   {
     id: '6',
     title: 'Batstate-U Tenants',
-    des: 'Gif finder using giphy.com api.',
-    category: 'typescript - react - wouter - jest',
-    repo: 'https://github.com/jeandv/maps-app',
-    link: 'https://gixfy.vercel.app'
+    des: 'Project Based Commission that Calculates electricity and water bill of the students staying at school dormitory',
+    category: 'javascript - react - python',
+    repo: 'https://github.com/hubymeme22/BatstateU-tenants',
+    link: 'https://.vercel.app'
   },
   {
     id: '7',
