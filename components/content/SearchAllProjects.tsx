@@ -69,17 +69,17 @@ const allProjectsInfo = [
   },
   {
     id: '10',
-    title: 'Ecommerce Challenge',
-    des: 'I did this challenge with the purpose of learning how to manage a shopping cart and to get to know ChakraUI.',
-    category: 'typescript - next.js - chakraui',
+    title: 'Simple Airbnb Clone',
+    des: 'AirBnbClone side project using React (Course-Scrimba)',
+    category: 'javascript - react',
     repo: 'https://github.com/jeandv/basement-challenge',
     link: 'https://basement-challenge-jeandv.vercel.app'
   },
   {
     id: '11',
-    title: 'Pokédex Next.js (ISR)',
-    des: 'Search and save your pokémons favs! I learned the use of GetStaticProps, Paths, the Incremental Static Generation and the Regeneration.',
-    category: 'typescript - next.js - axios',
+    title: 'React Meme Generator ',
+    des: 'React simple project in Scrimba course, generates random meme using the meme API',
+    category: 'javascript - react',
     repo: 'https://github.com/jeandv/pokedex-next',
     link: 'https://pokedex-jeandv.vercel.app'
   },
