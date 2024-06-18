@@ -10,32 +10,29 @@ const allProjectsInfo = [
     id: '1',
     title: 'Intelligent Recognition and Integrated Surveillance',
     des: 'Integrated Recognition Intelligent Surveillance (IRIS) AI technology for object detection, with a primary focus on monitoring equipment states (On/Off). By analyzing the frequency and duration of equipment usage, IRIS assists Lab Supervisors with automated data gathering and real-time monitoring capabilities',
-    category: 'javascript - react - python- yolo',
+    category: 'typescript - react - python- c# - yolo',
     repo: 'https://github.com/Project-Iris-CV/.github/tree/main/profile'
   },
   {
     id: '2',
-    title: 'Memory Game',
-    des: 'This is one of the challenges done in CADIF1 Academy. ',
-    category: 'javascript - jquery',
-    repo: 'https://jeandv.github.io/memoria-game',
-    link: 'https://github.com/jeandv/memoria-game'
+    title: 'BSU Alumni App Mobile',
+    des: 'Alumni App Mobile is the mobile version of  web application that displays the credentials and accomplishments of Batangas State University graduates, it also keeps track of approaching News and Events that the university would be hosting. This application also includes a job section that gives graduates to potential employment prospects offered by Batangas State University.',
+    category: 'angular-ionic',
+    repo: 'https://github.com/gioshwua/AlmuniApp-Mobile'
   },
   {
     id: '3',
-    title: 'Github User Finder',
-    des: 'frontendmentor.io challenge where I use the github api to be able to search for github users.',
-    category: 'javascript',
-    repo: 'https://jeandv.github.io/pokedex',
-    link: 'https://jeandv.github.io/pokedex'
+    title: 'BSU Alumni Web App',
+    des: "A simple alumni app project by our Team that can be used as a future reference for the university's alumni web-app. This alumni app includes the client side for the alumni and administrators that is made from bottom up.",
+    category: 'javascript - php - python',
+    repo: 'https://github.com/hubymeme22/alumni-app-project'
   },
   {
     id: '5',
-    title: 'MisPelis',
-    des: 'Save your favorite movies with the ability to edit, delete and search for matches.',
-    category: 'javascript - react',
-    repo: 'https://github.com/jeandv/mispelis',
-    link: 'https://mispelis.vercel.app'
+    title: 'React x Firebase CRUD',
+    des: 'This project is a simple demonstration of how to use Firebase as a Backend-as-a-Service (BaaS) in a React application built with Vite. The primary goal is to showcase how Firebase can handle backend operations seamlessly. The application features a user creation form where you can input a name and age, and upon clicking the "Create User" button, the data is sent to Firebase.',
+    category: 'javascript - react - firebase',
+    repo: 'https://github.com/gioshwua/ReactFireB-CRUD-'
   },
   {
     id: '6',
