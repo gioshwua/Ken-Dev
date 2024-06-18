@@ -93,11 +93,12 @@ const allProjectsInfo = [
   },
   {
     id: '13',
-    title: 'Clon Mercado Libre',
-    des: 'This is one of the Angular challenges done in CADIF1 Academy.',
-    category: 'typescript - angular - bootstrap',
-    repo: 'https://github.com/jeandv/mercadolibre-des4',
-    link: 'https://mercadolibre-des4.vercel.app'
+    title: 'Intrusion Detection in WSNs using Linear Regression',
+    des: 'Using the regression dataset from UCI , I built a transformer model that predicts the number of Barriers in  Intrusion detection in WSNs using simple Linear Regression ',
+    category:
+      'python - jupyther notebook - machine learning - linear regression',
+    repo: 'https://github.com/gioshwua/Linear-Regression-',
+    link: 'https://mercdsddolibre-des4.vercel.app'
   },
   {
     id: '14',
