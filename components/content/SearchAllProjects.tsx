@@ -81,15 +81,15 @@ const allProjectsInfo = [
     des: 'React simple project in Scrimba course, generates random meme using the meme API',
     category: 'javascript - react',
     repo: 'https://github.com/jeandv/pokedex-next',
-    link: 'https://pokedex-jeandv.vercel.app'
+    link: 'https://pokedexfd-jeandv.vercel.app'
   },
   {
     id: '12',
-    title: 'Open Jira',
-    des: 'MERN project using TypeScript to learn how to do the main functionality of Jira.',
-    category: 'next.js - node - express - mongodb',
-    repo: 'https://github.com/jeandv/open-jira',
-    link: 'https://open-jira-jeandv.vercel.app'
+    title: 'React Markdown Editor',
+    des: 'Markdown editor, Practice and enhance using markdown',
+    category: 'javascript - react',
+    repo: 'https://github.com/gioshwua/React-Markdown-Editor',
+    link: 'https://open-jifdfra-jeandv.vercel.app'
   },
   {
     id: '13',
