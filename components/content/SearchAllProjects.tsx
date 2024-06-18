@@ -37,7 +37,7 @@ const allProjectsInfo = [
   },
   {
     id: '6',
-    title: 'Gixfy',
+    title: 'Batstate-U Tenants',
     des: 'Gif finder using giphy.com api.',
     category: 'typescript - react - wouter - jest',
     repo: 'https://github.com/jeandv/maps-app',
