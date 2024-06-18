@@ -8,10 +8,10 @@ import { CardProjectProps } from '@/types';
 const allProjectsInfo = [
   {
     id: '1',
-    title: 'Pokédex Vanilla',
-    des: 'Project using the pokeapi api, you can search the pokemons you want.',
-    category: 'javascript',
-    repo: 'https://jeandv.github.io/pokedex'
+    title: 'Intelligent Recognition and Integrated Surveillance',
+    des: 'Integrated Recognition Intelligent Surveillance (IRIS) AI technology for object detection, with a primary focus on monitoring equipment states (On/Off). By analyzing the frequency and duration of equipment usage, IRIS assists Lab Supervisors with automated data gathering and real-time monitoring capabilities',
+    category: 'javascript - react - python- YOLO',
+    repo: 'https://github.com/Project-Iris-CV/.github/tree/main/profile'
   },
   {
     id: '2',
