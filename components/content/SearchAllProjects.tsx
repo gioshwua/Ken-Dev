@@ -24,16 +24,16 @@ const allProjectsInfo = [
     id: '3',
     title: 'Alumni App Project',
     des: "A simple alumni app project by  that can be used as a future reference for the university's alumni web-app. This alumni app includes the client side for the alumni and administrators that is made from bottom up.",
-    category: 'javascript',
+    category: 'vanilla javascript - php - python ',
     repo: 'https://github.com/hubymeme22/alumni-app-project'
   },
   {
     id: '5',
-    title: 'MisPelis',
-    des: 'Save your favorite movies with the ability to edit, delete and search for matches.',
-    category: 'javascript - react',
-    repo: 'https://github.com/jeandv/mispelis',
-    link: 'https://mispelis.vercel.app'
+    title: 'React x Firebase CRUD',
+    des: 'This project is a simple demonstration of how to use Firebase as a Backend-as-a-Service (BaaS) in a React application built with Vite. The primary goal is to showcase how Firebase can handle backend operations seamlessly. The application features a user creation form where you can input a name and age, and upon clicking the "Create User" button, the data is sent to Firebase.',
+    category: 'javascript - react - firebase',
+    repo: 'https://github.com/gioshwua/ReactFireB-CRUD-',
+    link: 'https://dsds.vercel.app'
   },
   {
     id: '6',
