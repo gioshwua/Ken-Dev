@@ -23,10 +23,9 @@ const allProjectsInfo = [
   {
     id: '3',
     title: 'Alumni App Project',
-    des: 'A simple alumni app project by team magbabagsakanDito that can be used as a future reference for the university's alumni web-app. This alumni app includes the client side (for the alumni) and administrators' that is made from bottom up.',
+    des: "A simple alumni app project by  that can be used as a future reference for the university's alumni web-app. This alumni app includes the client side for the alumni and administrators that is made from bottom up.",
     category: 'javascript',
-    repo: 'https://github.com/hubymeme22/alumni-app-project',
-   
+    repo: 'https://github.com/hubymeme22/alumni-app-project'
   },
   {
     id: '5',
