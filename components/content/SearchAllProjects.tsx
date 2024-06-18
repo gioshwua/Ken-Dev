@@ -47,7 +47,7 @@ const allProjectsInfo = [
     id: '7',
     title: 'BSU OPCR Frontend',
     des: 'Office Performance Commitment and Review (OPCR) System, The Front end part of our project for Software Engineering subject',
-    category: 'typescript - react - axios',
+    category: 'javascript - react ',
     repo: 'https://github.com/Sanjero20/bsu-opcr-frontend',
     link: 'https://mapbvsapp.vercel.app'
   },
@@ -55,17 +55,17 @@ const allProjectsInfo = [
     id: '8',
     title: 'Campus Student Violation System',
     des: 'Developed a comprehensive repository system at BSU Alangilan Campus to track and record student violations of school regulations.',
-    category: 'typescript - react - react query',
+    category: 'javascript - react - shell',
     repo: 'https://github.com/hubymeme22/Student-Violation-System',
     link: 'httdfduery/tree/main/02-react-query-issues-main'
   },
   {
     id: '9',
-    title: 'MERN Events Ecommerce',
-    des: 'Event registration app is a project test to evaluate my skills of the MERN stack using Redux and Stripe.',
-    category: 'react - node - express - mongodb',
-    repo: 'https://github.com/jeandv/events-test-mern',
-    link: 'https://github.com/jeandv/events-test-mern'
+    title: 'LEVI-management-system',
+    des: 'Reservation And Management System using Python',
+    category: 'python',
+    repo: 'https://github.com/gioshwua/LEVI-management-system',
+    link: 'https://gidsdeandv/events-test-mern'
   },
   {
     id: '10',
