@@ -13,7 +13,7 @@ const Head = () => {
     title: `Kenneth Dev ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
     description: `Hi! My name is Kenneth Reaño I'm from Venezuela and I have +3 year of work experience in JavaScript and React, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 16. I love what I do and I help others with what I can, I also use in web, mobile and desktop development Next.js, Angular, Ionic and Electron implementing good practices, clean architecture, pixel perfect and agile methodologies.`,
     keywords:
-      'Kenneth Reaño, Kenneth Reaño, Kenneth Reaño portafolio, Kenneth portafolio, Kenneth portfolio, Kenneth Reaño portfolio, Kenneth github, Jean Rondon github, Jeandv LinkedIn, Kenneth  LinkedIn, Web, Desarrollo web, Programador web, Diseño web, Paginas web, Aplicaciones web, Aplicaciones móviles, Aplicaciones escritorio, Desarrollo frontend, Programador frontend, HTML, CSS, Javascript, Typescript, React, Angular.',
+      'Kenneth Reaño, Kenneth Reaño, Kenneth Reaño portafolio, Kenneth portafolio, Kenneth portfolio, Kenneth Reaño portfolio, Kenneth github, Jean Rondon github, Kenneth LinkedIn, Kenneth  LinkedIn, Web, Desarrollo web, Programador web, Diseño web, Paginas web, Aplicaciones web, Aplicaciones móviles, Aplicaciones escritorio, Desarrollo frontend, Programador frontend, HTML, CSS, Javascript, Typescript, React, Angular.',
     type: 'website'
   };
 
@@ -26,12 +26,12 @@ const Head = () => {
       <meta name="keywords" content={meta.keywords} />
       <meta
         property="og:url"
-        content={`https://jeandv.vercel.app${pathname}`}
+        content={`https://ken-dev.vercel.app${pathname}`}
       />
-      <link rel="canonical" href={`https://jeandv.vercel.app${pathname}`} />
-      <link rel="me" href="mailto:jeanrdev@gmail.com" />
+      <link rel="canonical" href={`https://ken-dev.vercel.app${pathname}`} />
+      <link rel="me" href="mailto:reanokennethjoshua11@gmail.com" />
       <meta property="og:type" content={meta.type} />
-      <meta property="og:site_name" content="Jean Rondón" />
+      <meta property="og:site_name" content="Kenneth Reano" />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
       <meta name="twitter:card" content="summary_large_image" />
