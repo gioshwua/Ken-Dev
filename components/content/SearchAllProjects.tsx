@@ -102,8 +102,8 @@ const allProjectsInfo = [
   },
   {
     id: '14',
-    title: 'Cadif1 App',
-    des: 'This is one of the Ionic challenges done in CADIF1 Academy.',
+    title: 'Ecoli Dataset prediction using  Random Forest Classifier',
+    des: 'Used the dataset Ecoli from UCI and used Random Forest Classifier which is an ensemble Learning to predict the Ecoli Class',
     category: 'typescript - ionic - angular - scss',
     repo: 'https://github.com/jeandv/pract-ionic',
     link: 'https://www.youtube.com/watch?v=ysIM5sAkdAY'
