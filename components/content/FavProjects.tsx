@@ -114,7 +114,7 @@ const favProjects = [
       'https://cdn.sanity.io/images/jqaxrty6/production/587bf66c35c35c26dc6c20d85e9166d236227e29-1440x806.png',
     title: 'MapsApp',
     category: 'React - Context - TypeScript - CSS - Mapbox',
-    repo: 'https://github.com/jeandv/maps-app',
+    repo: 'https://github.com/df/maps-app',
     link: 'https://mapsapp.vercel.app'
   },
   {
@@ -122,24 +122,24 @@ const favProjects = [
       'https://cdn.sanity.io/images/jqaxrty6/production/9d452c28dc252302b90e6e2408b81ce3ed111957-1440x803.png',
     title: 'OpenJira',
     category: 'Next.js - Context - TypeScript - Node - MongoDB - MaterialUI',
-    repo: 'https://github.com/jeandv/open-jira',
-    link: 'https://open-jira-jeandv.vercel.app'
+    repo: 'https://github.com/fd/open-jira',
+    link: 'https://open-jira-fd.vercel.app'
   },
   {
     image:
       'https://cdn.sanity.io/images/jqaxrty6/production/bb12572785fdc98c304ff9823cab3f60bc16f8b7-1422x809.png',
     title: 'Github Issues',
     category: 'React - React Query - TypeScript - Bootstrap',
-    repo: 'https://github.com/jeandv/react-query',
-    link: 'https://github.com/jeandv/react-query'
+    repo: 'https://github.com/fd/react-query',
+    link: 'https://github.com/fd/react-query'
   },
   {
     image:
       'https://cdn.sanity.io/images/jqaxrty6/production/0844f66435c099fb020b8235657491a3166bd713-1280x800.png',
     title: 'ISR Pokedex',
     category: 'Next.js - TypeScript - NextUI - Pokeapi',
-    repo: 'https://github.com/jeandv/pokedex-next',
-    link: 'https://pokedex-jeandv.vercel.app'
+    repo: 'https://github.com/fd/pokedex-next',
+    link: 'https://pokedex-fd.vercel.app'
   },
   {
     image:
@@ -147,7 +147,7 @@ const favProjects = [
     title: 'MisPelis',
     category: 'React - JavaScript - CSS',
     repo: 'https://mispelis.vercel.app',
-    link: 'https://github.com/jeandv/mispelis'
+    link: 'https://github.com/fd/mispelis'
   },
   {
     image:
@@ -155,11 +155,11 @@ const favProjects = [
     title: 'Gixfy',
     category: 'React - JavaScript - Jest - Wouter',
     repo: 'https://gixfy.vercel.app',
-    link: 'https://github.com/jeandv/gixfy'
+    link: 'https://github.com/re/gixfy'
   }
 ];
 
-const myGithub = 'https://github.com/jeandv';
+const myGithub = 'https://github.com/gioshwua';
 
 const FavProjects = () => {
   const theme = useMantineTheme();

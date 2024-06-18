@@ -75,16 +75,16 @@ const allProjectsInfo = [
     title: 'Simple Airbnb Clone',
     des: 'AirBnbClone side project using React (Course-Scrimba)',
     category: 'javascript - react',
-    repo: 'https://github.com/jeandv/basement-challenge',
-    link: 'https://basement-challenge-jeandv.vercel.app'
+    repo: 'https://github.com/gioshwua/React-AirbnbClone',
+    link: 'https://basement-chalfdflenge-re.vercel.app'
   },
   {
     id: '11',
     title: 'React Meme Generator ',
     des: 'React simple project in Scrimba course, generates random meme using the meme API',
     category: 'javascript - react',
-    repo: 'https://github.com/jeandv/pokedex-next',
-    link: 'https://pokedexfd-jeandv.vercel.app'
+    repo: 'https://github.com/gioshwua/Scrimba-Meme-Gen',
+    link: 'https://pokedexfd-re.vercel.app'
   },
   {
     id: '12',
@@ -92,7 +92,7 @@ const allProjectsInfo = [
     des: 'Markdown editor, Practice and enhance using markdown',
     category: 'javascript - react',
     repo: 'https://github.com/gioshwua/React-Markdown-Editor',
-    link: 'https://open-jifdfra-jeandv.vercel.app'
+    link: 'https://open-jifdfra-re.vercel.app'
   },
   {
     id: '13',
